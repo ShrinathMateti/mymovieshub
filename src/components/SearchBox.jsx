@@ -7,7 +7,7 @@ const SearchBox = ({ value, setSearchValue }) => {
                    focus:outline-none focus:ring-2 focus:ring-yellow-400"
         value={value}
         onChange={(event) => setSearchValue(event.target.value)}
-        placeholder="Type to search..."
+        placeholder="Search Movies..."
       />
     </div>
   );
